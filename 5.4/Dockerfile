@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+MAINTAINER Andrea Usuelli <andrea.usuelli@prima.it>
+
 ENV FILEBEAT_VERSION=5.4.0 \
     FILEBEAT_SHA1=545fbb229c958f2379b17efe3825bf0c30e3039b
 

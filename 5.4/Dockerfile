@@ -2,8 +2,8 @@ FROM debian:jessie
 
 MAINTAINER Andrea Usuelli <andrea.usuelli@prima.it>
 
-ENV FILEBEAT_VERSION=5.4.0 \
-    FILEBEAT_SHA1=545fbb229c958f2379b17efe3825bf0c30e3039b
+ENV FILEBEAT_VERSION=5.4.3 \
+    FILEBEAT_SHA1=29d2e3b32e2f5049601e99aa4c2e2ac4ecfc70a1
 
 RUN set -x && \
   apt-get update && \
